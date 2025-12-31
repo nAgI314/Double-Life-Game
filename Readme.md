@@ -1,3 +1,6 @@
+# Double-Life-Game
+
+```
 pub struct GameConfig {
     pub grid_num: usize,
     pub max_life: usize,
@@ -14,6 +17,7 @@ pub struct GameConfig {
 
     pub update_interval: f32,
 }
+```
 を指定できるライフゲーム
 
 
@@ -24,4 +28,5 @@ pub struct GameConfig {
 
 死亡マスは
 誕生条件を満たしていると、max_lifeで誕生
+
 満たさないと、維持
